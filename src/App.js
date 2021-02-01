@@ -16,10 +16,10 @@ function App() {
       command: 'The weather is :condition today',
       callback: (condition) => setMessage(`Today, the weather is ${condition}`)
     },
-    {
-      command: 'My top sports are * and *',
-      callback: (sport1, sport2) => setMessage(`#1: ${sport1}, #2: ${sport2}`)
-    },
+    // {
+    //   command: 'My top sports are * and *',
+    //   callback: (sport1, sport2) => setMessage(`#1: ${sport1}, #2: ${sport2}`)
+    // },
     {
       command: 'Pass the salt (please)',
       callback: () => setMessage('My pleasure')
